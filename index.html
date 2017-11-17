@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>tic tac toe</title>
+    <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -11,10 +11,12 @@
     <div id="main">
         <h1 id='heading'>Tic Tac Toe. Choose O or X to start the turn</h1>
         <div id="board">
-            <div class="button " id="x" onclick="chooseX()">Choose X</div>
-            <div class="button " id="o" onclick="chooseO()">Choose O</div>
-            <div class="button hidden" id='reset' onclick="reset()">Reset</div>
-            <div class="button hidden" id='comp' onclick="aiturn(state, 0, currentPlayer, true)">Computer</div>
+            <div id="options-group">
+                <div class="button " id="x" onclick="chooseX()">Choose X</div>
+                <div class="button " id="o" onclick="chooseO()">Choose O</div>
+                <div class="button hidden" id='reset' onclick="reset()">Reset</div>
+                <div class="button hidden" id='comp' onclick="aiturn(state, 0, currentPlayer, true)">Computer</div>
+            </div>
             <div class="tile hidden" onclick="claim(this)"></div>
             <div class="tile hidden" onclick="claim(this)"></div>
             <div class="tile hidden" onclick="claim(this)"></div>

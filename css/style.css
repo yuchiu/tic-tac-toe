@@ -4,7 +4,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     padding: 0;
     margin: 0;
-    background-color: #293c59;
+    background-color: #040d1a;
     color: white;
     font-size: 1.5vh;
     user-select: none;
@@ -17,7 +17,7 @@ h1{
 #main {
     margin: 0;
     padding: 0;
-    padding-top: 25vh;
+    padding-top: 50px;
     height: auto;
     width: 100%;
 }
@@ -25,13 +25,16 @@ h1{
 #board {
     padding: 0;
     margin: auto;
-    width: 33vh;
-    height: 33vh;
+    width: 600px;
+    height: 600px;
+}
+#options-group{
+    display: flex;
 }
 .tile {
-    height: 10vh;
-    width: 10vh;
-    line-height: 10vh;
+    height: 190px;
+    width: 190px;
+    line-height: 190px;
     vertical-align: middle;
     text-align: center;
     border: 1px solid white;
@@ -42,9 +45,9 @@ h1{
 }
 
 .button {
-    height: 5vh;
-    width: 15vh;
-    line-height: 5vh;
+    height: 100px;
+    width: 288px;
+    line-height: 100px;
     vertical-align: middle;
     border: 1px solid white;
     text-align: center;
